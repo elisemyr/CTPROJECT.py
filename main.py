@@ -4,7 +4,7 @@ import turtle #importing the turtle module for graphics
 screen = turtle.Screen() #create a turtle graphics screen
 screen.setup(864, 864) #set up the dimensions of the screen (width: 864 pixels, height: 864 pixels)
 screen.title("Tic Tac Toe @ 2 Players") #set the title of the turtle graphics window
-screen.setworldcoordinates(-5, -5, 5, 5) ## Set the world coordinates for the turtle graphics screen, the visible area will be from (-5, -5) to (5, 5) with the center at (0, 0)
+screen.setworldcoordinates(-5, -5, 5, 5) #set the world coordinates for the turtle graphics screen, the visible area will be from (-5, -5) to (5, 5) with the center at (0, 0)
 screen.bgpic("gradsquare.gif") #set background image
 screen.tracer(0, 0) #turn off automatic screen updates
 turtle.hideturtle() #hide the default turtle cursor
